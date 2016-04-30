@@ -11,7 +11,7 @@ def math_game
   while p1_lives > 0 && p2_lives > 0
     puts "Player 1 go:"
     generate_question
-    puts @answer
+    #puts @answer
     player_ans = Integer(gets.chomp)
     binding.pry
     if player_ans != @answer
@@ -20,7 +20,7 @@ def math_game
     
     puts "Player 2 go:"
     generate_question
-    puts @answer
+    #puts @answer
     player_ans = Integer(gets.chomp)
     if player_ans != @answer
       p2_lives -= 1
