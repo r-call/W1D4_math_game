@@ -1,5 +1,5 @@
 #2 player math game #pseudocode for two player math game
-
+#Trying to unmerge two files with this code
 require 'pry'
 require 'pry-byebug'
 
